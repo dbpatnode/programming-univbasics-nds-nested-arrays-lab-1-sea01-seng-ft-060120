@@ -32,9 +32,9 @@ end
 def sorted_matrix
   organic_and_conventional_produce =
   #CONVENTIONAL_PRODUCE
-  [["Grapefruit", "Pineapple", "Oranges", "Watermelon","Eggplant"],
+  [["Grapefruit", "Pineapple", "Oranges", "Watermelon","Eggplant"].sort,
   #ORGANIC_PRODUCE
-  ["Strawberries", "Potatoes", "Grapes", "Avocadoes","Asparagus"]]
+  ["Strawberries", "Potatoes", "Grapes", "Avocadoes","Asparagus"].sort]
   
   
   
