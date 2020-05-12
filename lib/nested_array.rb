@@ -42,8 +42,12 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-
-  matrix[row][column]
+  organic_and_conventional_produce =
+  #CONVENTIONAL_PRODUCE
+  [["Grapefruit", "Pineapple", "Oranges", "Watermelon","Eggplant"],
+  #ORGANIC_PRODUCE
+  ["Strawberries", "Potatoes", "Grapes", "Avocadoes","Asparagus"][0]]
+  
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
 end
