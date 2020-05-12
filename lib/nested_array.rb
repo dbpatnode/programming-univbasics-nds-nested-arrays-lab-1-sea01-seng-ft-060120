@@ -46,7 +46,8 @@ def matrix_lookup(matrix, row, column)
   #CONVENTIONAL_PRODUCE
   [["Grapefruit", "Pineapple", "Oranges", "Watermelon","Eggplant"],
   #ORGANIC_PRODUCE
-  ["Strawberries", "Potatoes", "Grapes", "Avocadoes","Asparagus"]][1][3]
+  ["Strawberries", "Potatoes", "Grapes", "Avocadoes","Asparagus"]]
+  organic_and_conventional_produce[1][1]
   
   
   # Given any matrix (array of arrays), a row index and a column index, 
