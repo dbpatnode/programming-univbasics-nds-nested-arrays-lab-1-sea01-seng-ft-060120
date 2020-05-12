@@ -36,6 +36,7 @@ def sorted_matrix
   #ORGANIC_PRODUCE
   ["Strawberries", "Potatoes", "Grapes", "Avocadoes","Asparagus"]]
   organic_and_conventional_produce.sort!
+  organic_and_conventional_produce.to_s
   
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
